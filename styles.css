@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#container {
+    margin: 20px auto;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 20px;
+    min-height: 100px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.movable {
+    position: relative;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
